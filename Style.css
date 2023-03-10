@@ -6,18 +6,16 @@ body {margin: 0;
 h1 {text-align: center;
     margin: 0%;
 	 }
-.hover_img { 
-	position:relative;  
+.myImg {
+		border-radius: 5px;
+		cursor: pointer;
+		transition: 0.3s;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 }
-.hover_img a span { 
-	position:absolute; 
-	display:none; 
-	z-index:99;
-	left:50%;
-	-webkit-transform: translateX(-50%);
-	-ms-transform: translateX(-50%);
-	transform: translateX(-50%);
-}
-.hover_img a:hover span { 
-	display:block;
+.myImg:hover {
+		transform: scale(2);
+		display: flex;
+		margin-left: 100px;
 }
