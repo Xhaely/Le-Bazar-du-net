@@ -1,21 +1,60 @@
-body {margin: 0;
+body {
+	margin: 0;
 	color: rgb(255, 255, 255);
-	background-color: rgb(10, 10, 10)	
+	background-color: rgb(10, 10, 10)
 }
 
-h1 {text-align: center;
-    margin: 0%;
-	 }
-.myImg {
-		border-radius: 5px;
-		cursor: pointer;
-		transition: 0.3s;
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
+h1 {
+	text-align: center;
+	margin: 0%;
 }
+
+.block {
+	height: 60%;
+	background-color: #3d5a6d;
+	width: 98%;
+}
+
+.Placement {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+iframe {
+	border: 0;
+}
+
+#barre {
+	width: auto;
+	background-color: black;
+	height: 1px;
+}
+
+p {
+	margin: 15px 0 15px;
+	font-size: 20px;
+}
+
+#para {
+	line-height: 32.5px;
+}
+
+.copyright {
+	text-align: center;
+}
+
+.myImg {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .myImg:hover {
-		transform: scale(2);
-		display: flex;
-		margin-left: 100px;
+	transform: scale(2);
+	display: flex;
+	margin-left: 100px;
 }
