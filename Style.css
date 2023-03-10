@@ -43,12 +43,14 @@ p {
 .copyright {
 	text-align: center;
 }
+
 #Exemplaire {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
+
 .myImg {
 	border-radius: 5px;
 	cursor: pointer;
