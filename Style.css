@@ -6,7 +6,6 @@ body {margin: 0;
 h1 {text-align: center;
     margin: 0%;
 	 }
-
 .myImg {
 		border-radius: 5px;
 		cursor: pointer;
@@ -18,5 +17,5 @@ h1 {text-align: center;
 .myImg:hover {
 		transform: scale(2);
 		display: flex;
-		margin: 100px;
+		margin-left: 100px;
 }
