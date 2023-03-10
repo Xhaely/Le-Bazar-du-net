@@ -7,8 +7,16 @@ h1 {text-align: center;
     margin: 0%;
 	 }
 
+.myImg {
+		border-radius: 5px;
+		cursor: pointer;
+		transition: 0.3s;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+}
 .myImg:hover {
 		transform: scale(2);
 		display: flex;
-		margin-left: 100px;
+		margin: 100px;
 }
