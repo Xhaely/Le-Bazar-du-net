@@ -7,3 +7,17 @@ body {margin: 0;
 h1 {text-align: center;
     margin: 0%;
 	 }
+	 #footer .container {
+		padding: 3em 1em 1em 1em ;
+	}
+
+	#footer footer .copyright {
+		line-height: inherit;
+	}
+
+		#footer footer .copyright li {
+			border-left: 0;
+			display: block;
+			margin: 0;
+			padding: 0;
+		}
